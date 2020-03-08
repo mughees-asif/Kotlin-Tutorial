@@ -1,3 +1,7 @@
 fun main(args: Array<String>) {
-    println("Hello World")
+    val mughees = Player("Mughees")
+    println(mughees.name)
+    println(mughees.lives)
+    println(mughees.level)
+    println(mughees.score)
 }
