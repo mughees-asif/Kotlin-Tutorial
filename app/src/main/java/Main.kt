@@ -1,7 +1,9 @@
 fun main(args: Array<String>) {
+    val newPlayer = Player("newPlayer")
+    newPlayer.show()
+
     val mughees = Player("Mughees")
-    println(mughees.name)
-    println(mughees.lives)
-    println(mughees.level)
-    println(mughees.score)
+    mughees.level = 10
+    mughees.score = 1000
+    mughees.show()
 }
